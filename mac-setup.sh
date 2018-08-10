@@ -3,7 +3,7 @@
 # Dev Setup Script for OSX
 # To execute: save and `chmod +x ./mac-setup.sh` then `./mac-setup.sh`
 
-#Run Visual Studio Code setup script
+#Run Homebrew setup script
 chmod +x ./brew-setup.sh
 ./brew-setup.sh
 
@@ -11,6 +11,6 @@ chmod +x ./brew-setup.sh
 chmod +x ./vs-code-setup.sh
 ./vs-code-setup.sh
 
-#Run misc setup script
+#Run Misc setup script
 chmod +x ./misc-setup.sh
 ./misc-setup.sh
