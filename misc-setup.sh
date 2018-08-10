@@ -17,16 +17,20 @@ npm install -g bower
 cat slack-dark-theme.js >> /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
 
 #Install and setup Laravel Homestead
+mkdir ~/Code
 vagrant box add laravel/homestead
-git clone https://github.com/laravel/homestead.git ~/Homestead
-cd ~/Homestead
-git checkout v7.8.0
+git clone https://github.com/laravel/homestead.git ~/Code/Homestead
+cd ~/Code/Homestead
+git checkout v7.14.2
 bash init.sh
 vagrant plugin install vagrant-bindfs
 
 #Composer Packages
 composer global require "squizlabs/php_codesniffer=*"
 composer global require greynoise-design/laravel-coding-standard
+
+#Link Greynoise Laravel Coding Standard to phpcs
+ln -s ~/.composer/vendor/greynoise-design/laravel-coding-standard/GreynoiseLaravel ~/.composer/vendor/squizlabs/php_codesniffer/src/Standards/GreynoiseLaravel
 
 #ZSH install
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
