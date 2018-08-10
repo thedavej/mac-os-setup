@@ -25,10 +25,9 @@ brew cask install visual-studio-code
 brew cask install sequel-pro
 brew cask install iterm2
 brew install zsh
-brew cask install sourcetree
-brew cask install sublime-text
 brew cask install virtualbox
 brew cask instal vagrant
+brew cask install insomnia
 
 #Communication Apps
 brew cask install slack
@@ -36,9 +35,6 @@ brew cask install slack
 #Web Tools
 brew cask install google-chrome
 brew cask install firefox
-
-#Entertainment
-brew cask install spotify
 
 #Misc
 brew cask install spectacle
