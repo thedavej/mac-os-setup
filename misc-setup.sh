@@ -16,7 +16,7 @@ vagrant box add laravel/homestead
 git clone https://github.com/laravel/homestead.git ~/Code/Homestead
 cat Homestead/after.sh > ~/Code/Homestead/after.sh
 cd ~/Code/Homestead
-git checkout v7.14.2
+git checkout release
 bash init.sh
 vagrant plugin install vagrant-bindfs
 

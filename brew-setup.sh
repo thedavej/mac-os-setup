@@ -36,6 +36,10 @@ brew cask install slack
 brew cask install google-chrome
 brew cask install firefox
 
+#Fonts
+brew tap homebrew/cask-fonts
+brew cask install font-hasklig
+
 #Misc
 brew cask install spectacle
 brew cask install numi
