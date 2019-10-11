@@ -14,7 +14,7 @@ brew upgrade
 
 #Programming Languages
 brew install node
-brew install php@7.1
+brew install php@7.3
 
 #Dev Tools
 brew install composer
@@ -28,7 +28,6 @@ brew install zsh
 brew cask install virtualbox
 brew cask instal vagrant
 brew cask install insomnia
-brew install openconnect
 
 #Communication Apps
 brew cask install slack

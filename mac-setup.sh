@@ -7,10 +7,6 @@
 chmod +x ./brew-setup.sh
 ./brew-setup.sh
 
-#Run Visual Studio Code setup script
-chmod +x ./vs-code-setup.sh
-./vs-code-setup.sh
-
 #Run Misc setup script
 chmod +x ./misc-setup.sh
 ./misc-setup.sh

@@ -10,9 +10,6 @@ npm install -g gulp
 npm install -g sails
 npm install -g bower
 
-#Dark Slack Theme
-cat slack-dark-theme.js >> /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
-
 #Install and setup Laravel Homestead
 mkdir ~/Code
 vagrant box add laravel/homestead
@@ -28,7 +25,7 @@ composer global require "squizlabs/php_codesniffer=*"
 composer global require greynoise-design/laravel-coding-standard
 
 #Link Greynoise Laravel Coding Standard to phpcs
-ln -s ~/.composer/vendor/greynoise-design/laravel-coding-standard/GreynoiseLaravel ~/.composer/vendor/squizlabs/php_codesniffer/src/Standards/GreynoiseLaravel
+ln -s ~/.composer/vendor/greynoise-design/laravel-coding-standard/GreynoiseLaravel ~/.composer/vendor/squizlabs/php_codesniffer/src/Standards/
 
-#ZSH install
+#oh-my-zsh install
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
